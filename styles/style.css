@@ -1,0 +1,245 @@
+/* Google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Global css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005fac;
+    cursor: pointer;
+}
+.btn-secondary {
+    background-color: #005fac;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+
+/* Header & Banner section */
+.banner {
+    background-image: url('../images/banner/banner3.png');
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 180px 230px;
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.banner-content {
+    width: 40%;
+    text-align: right;
+}
+.banner .banner-title {
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.banner .banner-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+/* Main section */
+.main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Failure section */
+#failure {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin-top: 130px;
+}
+.failure-content .section-title {
+    margin-bottom: 24px;
+}
+.failure-content .failure-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.failure-content .failure-point {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444343;
+}
+.failure-content .failure-point i {
+    color: #16d887;
+    margin-right: 10px;
+}
+
+/* plan section */
+#my-plan {
+    text-align: center;
+    margin-top: 130px;
+}
+#my-plan .section-title {
+    margin-bottom: 50px;
+}
+#my-plan .plans {
+    display: flex;
+    justify-content: space-between;
+}
+.plans .plan img {
+    width: 92px;
+    height: 92px;
+    margin-bottom: 24px;
+}
+.plans .plan h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 16px;
+}
+.plans .plan p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
+/* Banner image section */
+#banner-img {
+    background-image: url("../images/watch.png"), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: overlay;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    padding: 60px;
+    border-radius: 8px;
+}
+.banner-img-content {
+    width: 50%;
+}
+.banner-img-content .banner-img-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+/* Contact section */
+#contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 130px;
+}
+.address-info .section-title {
+    margin-bottom: 30px;
+}
+.address-info p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #444343;
+    margin-bottom: 15px;
+}
+.address-info p i {
+    margin-right: 10px;
+    color: #16d887;
+}
+.contact-form {
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow:0 0 10px 0 rgba(0,0,0,0.1);
+}
+.contact-form .input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.contact-form .input-group input {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #444343;
+}
+.contact-form .section-title {
+    margin-bottom: 10px;
+}
+.contact-form .message-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444343;
+    margin-bottom: 25px;
+}
+.contact-form textarea {
+    width: 94.5%;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #444343;
+}
+
+/* Footer section */
+#footer{
+    background-color: #151414;
+    padding: 130px 0px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    max-width: 1140px;
+    margin: 0 auto;
+    color: #F8F8F8;
+}
+.contact-info .contact-info-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.contact-info .contact-info-description {
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 24px;
+    width: 70%;
+}
+.contact-info .email, .phone {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.contact-info a {
+    margin-right: 20px;
+}
+.subscribe-form .subscribe-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.subscribe-form input {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f3f3f3;
+    background-color: transparent;
+    margin-bottom: 16px;
+}
